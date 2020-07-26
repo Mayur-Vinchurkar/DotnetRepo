@@ -15,7 +15,7 @@ namespace WebApplication5.Controllers
             using(DBcrudEntities1 db=new DBcrudEntities1())
             return View(db.Students.ToList());
             Console.WriteLine("listed");
-            Console.WriteLine("listeddgdgd");
+            Console.WriteLine("listed in devvs");
 
 
 
